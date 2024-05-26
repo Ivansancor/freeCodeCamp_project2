@@ -1,0 +1,41 @@
+body {
+    background-image: url(../images/coffee_beans.jpg);
+}
+
+header, main, footer {
+    width: 60%;
+    background-color: burlywood;
+    margin: 0 auto;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+h1, h2 {
+    font-family: "Bebas Neue", sans-serif;
+}
+
+main>h2 {
+    margin-bottom: 0;
+}
+
+main>i {
+    margin-bottom: 0.5rem;
+}
+
+main>section {
+    width: 80%;
+    margin: 0 auto;
+}
+
+main>section>p {
+    text-align: left;
+}
+
+main>section>p>span {
+    float: right;
+    font-weight: bold;
+}
+
+hr {
+    border: 0.1rem solid black;
+}
